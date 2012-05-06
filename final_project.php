@@ -37,10 +37,10 @@ elseif (!empty($s)) {
 }//endif
 
 else {
-					$query="SELECT * FROM msellers_jobposts WHERE 1 ORDER BY created DESC LIMIT 0,10" ;
+	$query="SELECT * FROM msellers_jobposts WHERE 1 ORDER BY created DESC LIMIT 0,10" ;
 					
-					$result=mysql_query($query);
-					echo mysql_error ();
+	$result=mysql_query($query);
+	echo mysql_error ();
 					
 }
 ?>
